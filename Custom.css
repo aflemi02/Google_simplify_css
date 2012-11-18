@@ -1,0 +1,18 @@
+/**************
+@ Google page simplify CSS
+@ File path: C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+@
+**************/
+
+/*body.webkit.loaded #main{
+	font-family: "微软雅黑", "宋体";
+}*/
+*{
+	font-family: "微软雅黑", "宋体";
+}
+body.webkit #gbar, body.webkit #guser, body.webkit .gbh, body.webkit #top-bar,/* For Google Reader */
+.webkit #gb,
+body.aAX #gbx3, body.aAU #gbx3, body.aAX #gbzw, body.aAU #gbzw, body.aAX #gb.gbes, body.aAU #gb.gbes/* For Gmail */
+{
+	display: none;
+}
